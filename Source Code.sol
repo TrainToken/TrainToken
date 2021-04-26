@@ -1,10 +1,10 @@
 pragma solidity ^0.6.12;
-
-// SPDX-License-Identifier: Unlicensed
+//TRNX Dev Team***
+//Not to moon , to the future! 
 // Token Name: Train Token
-// Token Symbol: TRT
+// Token Symbol: TRNX
 // Decimals: 09
-// Total 10% Fees Per Transaction - 5% Redistribution, 5% Liquidity Pool
+// Total 10% Fees Per Transaction - 5% Redistribution, 5% Liquidity Pool(Burn)
 
 interface IERC20 {
 
@@ -684,7 +684,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract TRT is Context, IERC20, Ownable {
+contract TRNX is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -703,7 +703,7 @@ contract TRT is Context, IERC20, Ownable {
     uint256 private _tFeeTotal;
 
     string private _name = "Train Token";
-    string private _symbol = "TRT";
+    string private _symbol = "TRNX";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
@@ -1146,4 +1146,4 @@ contract TRT is Context, IERC20, Ownable {
 
     
 
-}
+} 
